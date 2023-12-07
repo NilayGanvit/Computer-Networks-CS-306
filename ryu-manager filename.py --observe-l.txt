@@ -1,0 +1,2 @@
+ryu-manager filename.py --observe-links
+topology.py 6603 change
