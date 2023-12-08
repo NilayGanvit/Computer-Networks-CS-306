@@ -1,0 +1,11 @@
+nilay@nilay-pc:~/Documents/CS356/Assignment1$ gcc 200001053_client.c -o client
+nilay@nilay-pc:~/Documents/CS356/Assignment1$ ./client '127.0.0.1' 8080
+creating socket
+Equation to be sent: 4+5
+Ans: 9
+Equation to be sent: 15*25
+Ans: 375
+Equation to be sent: abc15*cd25
+Ans: Wrong input
+Equation to be sent: close
+nilay@nilay-pc:~/Documents/CS356/Assignment1$ 

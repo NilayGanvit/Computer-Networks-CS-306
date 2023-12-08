@@ -1,0 +1,34 @@
+nilay@nilay-pc:~/Documents/CS356/Assignment2$ gcc 200001053_client.c -o client
+nilay@nilay-pc:~/Documents/CS356/Assignment2$ ./client 
+Socket created successfully.
+Connected to the server.
+hi
+hello
+this is client
+Server: hey 
+Server: hi again
+Server: this is server
+nice
+Server: bye
+close
+Client Exit.
+nilay@nilay-pc:~/Documents/CS356/Assignment2$
+
+Server_log:
+nilay@nilay-pc:~/Documents/CS356/Assignment2$ gcc 200001053_server.c -o server
+nilay@nilay-pc:~/Documents/CS356/Assignment2$ ./server 
+Socket created successfully.
+Socket bound successfully.
+Server listening...
+Server accepted client request.
+Client: hi
+Client: hello
+Client: this is client
+hey 
+hi again
+this is server
+Client: nice
+bye 
+close
+Server closed.
+nilay@nilay-pc:~/Documents/CS356/Assignment2$
